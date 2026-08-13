@@ -3,7 +3,7 @@
 Real-time communication is a common requirement in modern distributed systems. 
 Choosing the right technology depends on latency requirements, communication direction, and whether clients need to communicate directly with each other.
 
-![Real-Time Communication Decision Tree](./real-time-communication.png)
+![Real-Time Communication Decision Tree](./real-time_communication.png)
 
 ## Polling
 
