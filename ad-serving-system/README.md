@@ -10,7 +10,7 @@ The system serves relevant sponsored products alongside organic search results w
 
 The original editable Excalidraw diagram is available here:
 
-[ad-service.excalidraw](ad-service.excalidraw)
+[ad-service.excalidraw](https://excalidraw.com/#json=z0PuyHnWgesxiEze9JOmm,Aqv34HZDzxN8ZQHMlzo2yQ)
 
 ---
 
