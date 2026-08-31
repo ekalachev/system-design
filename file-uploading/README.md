@@ -12,34 +12,8 @@ The system uses **direct-to-storage multipart chunked uploads** to prevent API s
 
 The original editable Excalidraw diagram is available here:
 
-- **Interactive Web Canvas:** [file-uploader.excalidraw](https://excalidraw.com/#json=J8RcChmAHys2yKJHydt2X,82ExN0qKwbwOsfGn3QdaFQ)
+- **Interactive Web Canvas:** [file-uploader.excalidraw](https://excalidraw.com/#json=QDlkuWBOCemJX5A-2Nf4r,aZ4hioPFElLIC3r9ND58dg)
 - **Local File:** [file-uploader.excalidraw](file-uploader.excalidraw)
-
-```text
-[Client App] ────────(1. Initiate Upload)───────> [API Gateway]
-   │                                                     │
-   │                                              (Verify & Route)
-   │                                                     ▼
-   │ <─────(2. Presigned Part URLs)────────────── [Upload Service]
-   │                                                     │
-   │                                            (Write Metadata: PENDING)
-   │                                                     ▼
-   │                                            [Metadata Database]
-   │                                                     ▲
-   │ (3. Direct PUT Chunks in Parallel)                  │
-   ▼                                                     │
-[Object Storage (S3/GCS)] ──(4. ObjectCreated Event)──>  │
-   │                                                     │
-   │                                                     ▼
-   │                                              [Event Queue (SQS)]
-   │                                                     │
-   │                                              (5. Dispatch Job)
-   │                                                     ▼
-   │ <──────────(6. Mark Status: READY)────────── [Worker Pool]
-   ▲                                              (Virus Scan & Resizing)
-   │ (Origin Fetch)
-[CDN Edge (CloudFront)] <──────── (Fast Downloads)
-```
 
 ---
 
