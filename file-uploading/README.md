@@ -8,9 +8,12 @@ The system uses **direct-to-storage multipart chunked uploads** to prevent API s
 
 ## Architecture Diagram
 
-The editable Excalidraw design file is available here:
+![File Uploader Architecture](file-uploader.png)
 
-👉 **[file-uploader.excalidraw](file-uploader.excalidraw)**
+The original editable Excalidraw diagram is available here:
+
+- **Interactive Web Canvas:** [file-uploader.excalidraw](https://excalidraw.com/#json=fUsBi1KjOCYzdjOih0HH5,LtZQ9A5fNoOw-UVswzAh_g)
+- **Local File:** [file-uploader.excalidraw](file-uploader.excalidraw)
 
 ```text
 [Client App] ────────(1. Initiate Upload)───────> [API Gateway]
