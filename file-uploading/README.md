@@ -12,7 +12,7 @@ The system uses **direct-to-storage multipart chunked uploads** to prevent API s
 
 The original editable Excalidraw diagram is available here:
 
-- **Interactive Web Canvas:** [file-uploader.excalidraw](https://excalidraw.com/#json=fMicDWqi2o8vzR9JIf_qJ,ozmJgrejljT80B_jouQz6g)
+- **Interactive Web Canvas:** [file-uploader.excalidraw](https://excalidraw.com/#json=N-wXY_XQuqhg5I4sZiLlx,dcZ-rC1CNx_ExSMq_4a-lA)
 - **Local File:** [file-uploader.excalidraw](file-uploader.excalidraw)
 
 ---
